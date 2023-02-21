@@ -87,7 +87,7 @@ li a {
     margin: 10px 0;
 }
 
-.primary {
+.primary-btn {
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 1.8rem;
@@ -170,4 +170,49 @@ main .card {
     font-weight: 700;
     font-style: normal;
     text-align: right;
+}
+
+/*
+    call to action
+*/
+.call-to-action{
+    background-color: white;
+    color: white;
+}
+
+.cta-content{
+    background-color: #3882F6;
+    width: 900px;
+    border-radius: 10px;
+    margin: 100px auto;
+    padding: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-title{
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center
+}
+
+.cta-main {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.cta-sub{
+    font-size:1.8rem;
+}
+
+.sign-up-btn {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    padding:8px 40px;
 }
