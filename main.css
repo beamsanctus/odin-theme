@@ -52,8 +52,11 @@ ul {
 }
 
 li{
-    text-decoration: none;
     list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
     font-size: 1.8rem;
     color: #E5E7EB;
 }
@@ -113,7 +116,7 @@ main {
 
 .main-title {
     font-size: 3.6rem;
-    font-weight: bolder;
+    font-weight: 900;
     align-self: center;
     
     margin-top: 50px;
@@ -145,5 +148,26 @@ main .card {
     margin: 10px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 3.6rem;
+    font-weight: light;
+    font-style: italic;
+}
 
+.quote-content{
+    width: 900px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 80px 0;
+}
 
+.speaker {
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-style: normal;
+    text-align: right;
+}
